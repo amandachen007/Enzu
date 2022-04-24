@@ -1,0 +1,59 @@
+
+table, 
+th, 
+td { 
+    border: 3px solid grey;
+    border-collapse: collapse;
+    text-align: center;
+    font-weight: 100;
+    font-style: italic;
+}
+
+/* td {
+    border: 3px dashed grey;
+} */
+
+#mytable {
+    color: orange;
+}
+
+.mytable_class {
+    background: rgba(210, 212, 91, 0.4);
+    color: black;
+}
+
+/* ul.info {
+    list-style: none;
+} */
+
+ul.info>li {
+    list-style: none;
+}
+
+ul.info>li li:nth-child(2) {
+    list-style: none;
+}
+
+ol li a {
+    text-decoration: none;
+}
+
+ol li a[target="_blank"] {
+    color: rgb(251, 255, 0);
+}
+
+ol li a[href*="google"] {
+    color: rgb(86, 227, 61);
+}
+
+ol li a[href^="https"] {
+    color: rgb(227, 61, 61);
+}
+
+ol li a[href$=".au"] {
+    color: rgb(119, 61, 227);
+}
+
+ol li a[href*="google"][href$=".com"] {
+    background: rgb(44, 192, 113);
+}
